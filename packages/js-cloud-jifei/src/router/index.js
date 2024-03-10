@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-export const routes = [
+const routes = [
   {
     name: 'config',
     path: '/config',
@@ -16,7 +16,4 @@ export const routes = [
   },
 ]
 
-export default new Router({
-  mode: 'history',
-  routes
-})
+export default routes

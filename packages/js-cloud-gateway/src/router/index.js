@@ -5,6 +5,11 @@ Vue.use(Router)
 
 const routes = [
   {
+    name: '/',
+    path: '/',
+    component: () => import('../views/Monitor.vue'),
+  },
+  {
     name: 'monitor',
     path: '/monitor',
     component: () => import('../views/Monitor.vue'),

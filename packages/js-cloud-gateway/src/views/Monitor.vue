@@ -1,13 +1,18 @@
 <template>
   <div class="link">
     monitor
-    <base-link />
+    <!-- <base-link /> -->
   </div>
 </template>
 
 <script>
+// import {BaseLink} from 'base/js-cloud-components'
+
 export default {
-  name: 'GaywayMonitor'
+  name: 'GaywayMonitor',
+  components: {
+    // BaseLink
+  }
 }
 </script>
 

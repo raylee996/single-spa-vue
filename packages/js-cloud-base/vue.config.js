@@ -23,10 +23,10 @@ module.exports = defineConfig({
         exposes: {
           './js-cloud-components': './src/js-cloud-components/index.js'
         },
-        remotes: {
+        /* remotes: {
           'gateway': 'gateway@http://localhost:9001/gatewayRemoteEntry.js',
           'jifei': 'jifei@http://localhost:9002/jifeiRemoteEntry.js',
-        }
+        } */
       })
     ]
   }

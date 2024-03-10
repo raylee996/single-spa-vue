@@ -1,9 +1,9 @@
 <template>
-  <micro-app name='jifei' url='http://localhost:9002/' baseroute='/jifei'></micro-app>
+  <div id="jifei"></div>
 </template>
 
 <script>
 export default {
-  name: 'BaseJifei'
+  name: 'BaseJifei',
 }
 </script>

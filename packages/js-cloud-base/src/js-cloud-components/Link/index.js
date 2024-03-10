@@ -1,7 +1,7 @@
-import Link from './Link.vue'
+import BaseLink from './Link.vue'
 
-Link.install = function(Vue) {
-  Vue.component(Link.name, Link)
+BaseLink.install = function(Vue) {
+  Vue.component(BaseLink.name, BaseLink)
 }
 
-export default Link
+export default BaseLink

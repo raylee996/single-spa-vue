@@ -1,4 +1,4 @@
-import Link from './Link/index'
+/* import Link from './Link/index'
 import Button from './Button/index'
 
 const components = [
@@ -14,4 +14,7 @@ const install = function(Vue) {
 
 export default {
   install
-}
+} */
+
+export * from './Link/index'
+export * from './Button/index'
